@@ -17,3 +17,10 @@ class Car:
         print(f"{self.__year_model} {self.__make} | Speed: {self.__speed} km/h")
 
 car=Car("2023", "Mustang")
+
+print("Accelerating Car")
+for i in range(5):
+    car.accelerate()
+    car.display()
+
+
