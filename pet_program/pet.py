@@ -18,6 +18,8 @@ class Pet:
         print(f"Name: {self.__name}")
         print(f"Animal Type: {self.__animal_type}")
         print(f"Age: {self.__age} year(s) old")
-    
 
-
+pet = Pet()
+pet.set_name(input("Pet Name: "))
+pet.set_animal_type(input("Pet Type: "))
+pet.set_age(int(input("Pet Age: ")))
