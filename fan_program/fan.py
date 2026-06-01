@@ -18,7 +18,7 @@ class Fan:
     def set_color(self, color):
         self.__color = color
 
-    def set_on(self, on):
+    def set_on(self, status):
         self.__on = status
 
     def display(self):
@@ -29,3 +29,6 @@ speed: {self.__speed}
 radius: {self.__radius}
 color: {self.__color}
 """)
+
+fan_1 = Fan(Fan.FAST, 10, "yellow", True)
+fan_2 = Fan(Fan.MEDIUM, 5, "blue", False)
