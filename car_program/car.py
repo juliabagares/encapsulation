@@ -16,4 +16,4 @@ class Car:
     def display(self):
         print(f"{self.__year_model} {self.__make} | Speed: {self.__speed} km/h")
 
-    
+car=Car("2023", "Mustang")
