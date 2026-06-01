@@ -19,4 +19,7 @@ class Fan:
         self.__color = color
 
     def set_on(self, on):
-        self.__on = on
+        self.__on = status
+
+    def display(self):
+        status = "ON" if self.__on else "OFF"
