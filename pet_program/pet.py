@@ -25,3 +25,5 @@ pet = Pet()
 pet.set_name(input("Pet Name: "))
 pet.set_animal_type(input("Animal Type: "))
 pet.set_age(int(input("Pet Age: ")))
+
+pet.display()
