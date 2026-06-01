@@ -13,3 +13,11 @@ class Pet:
     def set_age(self, age):
         self.__age = age
 
+    def display(self):
+        print("\nPet Profile")
+        print(f"Name: {self.__name}")
+        print(f"Animal Type: {self.__animal_type}")
+        print(f"Age: {self.__age} year(s) old")
+    
+
+
