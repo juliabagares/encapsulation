@@ -32,3 +32,6 @@ color: {self.__color}
 
 fan_1 = Fan(Fan.FAST, 10, "yellow", True)
 fan_2 = Fan(Fan.MEDIUM, 5, "blue", False)
+
+print(fan_1.display())
+print(fan_2.display())
