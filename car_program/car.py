@@ -23,4 +23,7 @@ for i in range(5):
     car.accelerate()
     car.display()
 
-
+print("\nBraking Car")
+for i in range(5):
+    car.brake()
+    car.display()
