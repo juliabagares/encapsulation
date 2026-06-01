@@ -23,3 +23,9 @@ class Fan:
 
     def display(self):
         status = "ON" if self.__on else "OFF"
+        print(f"""
+fan status: {status}
+speed: {self.__speed}
+radius: {self.__radius}
+color: {self.__color}
+""")
