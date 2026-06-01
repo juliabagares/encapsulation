@@ -7,19 +7,21 @@ class Pet:
     def set_name(self, name):
         self.__name = name.title()
 
-    def set_animal_type(self, animal_type):
-        self.__animal_type = animal_type.title()
+    def set_animal_type(self, animal):
+        self.__animal_type = animal.title()
 
     def set_age(self, age):
         self.__age = age
 
     def display(self):
         print("\nPet Profile")
-        print(f"Name: {self.__name}")
-        print(f"Animal Type: {self.__animal_type}")
-        print(f"Age: {self.__age} year(s) old")
+        print(f"Name : {self.__name}")
+        print(f"Type : {self.__animal_type}")
+        print(f"Age  : {self.__age} year(s) old")
+
 
 pet = Pet()
+
 pet.set_name(input("Pet Name: "))
-pet.set_animal_type(input("Pet Type: "))
+pet.set_animal_type(input("Animal Type: "))
 pet.set_age(int(input("Pet Age: ")))
